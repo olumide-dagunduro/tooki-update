@@ -8,6 +8,7 @@ import HowItWorks from './Components/HowItWorks/HowItWorks';
 import BoostSales from './Components/BoostSales/BoostSales';
 import ClientSay from './Components/ClientSay/ClientSay';
 import Steps from './Components/Steps/Steps';
+import Pricing from './Components/Pricing/Pricing';
 
 function App() {
   return(
@@ -19,6 +20,7 @@ function App() {
       <BoostSales />
       <ClientSay />
       <Steps />
+      <Pricing />
       {/* <Footer /> */}
     </div>
     

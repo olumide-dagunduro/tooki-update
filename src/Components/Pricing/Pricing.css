@@ -1,0 +1,169 @@
+.tooki__pricing{
+    display: flex;
+}
+.tooki__pricing-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.tooki__pricing-container h1{
+    font-size: 35px;
+}
+.tooki__pricing-container_button{
+    display: flex;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid 1px lightgray;
+}
+.tooki__pricing-container_button .btn1{
+    padding: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: bisque;
+    color: white;
+    cursor: pointer;
+}
+.tooki__pricing-container_button .btn2{
+    padding: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+.tooki__pricing-container_button .btn2:hover{
+    background-color: lightgray;
+}
+.tooki__pricing-container_packages{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1200px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.tooki__pricing-container_packages-one{
+    width: 370px;
+    height: 760px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5rem;
+}
+.tooki__pricing-container_packages-one-div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 3.5rem;
+}
+.tooki__pricing-container_packages-two{
+    width: 370px;
+    height: 760px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5rem;
+}
+.tooki__pricing-container_packages-two-div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.tooki__pricing-container_packages-three{
+    width: 370px;
+    height: 760px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5rem;
+}
+.tooki__pricing-container_packages-three-div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.tooki__pricing-container_packages-three p, .tooki__pricing-container_packages-one p, .tooki__pricing-container_packages-two p{
+    display: flex;
+    align-items: center;
+    width: 300px;
+    word-wrap: normal;
+    font-size: small;
+    
+}
+.icon{
+    margin-right: 0.8rem;
+}
+.tooki__pricing-container_packages-one-div div, .tooki__pricing-container_packages-three-div div{
+    display: flex;
+    align-items: center;
+}
+.tooki__pricing-container_packages-one-div div h2, .tooki__pricing-container_packages-three-div div h2{
+    margin-left: 1rem;
+    color: lightgray;
+}
+.tooki__pricing-container_packages-two-div div{
+    display: flex;
+    align-items: center;
+}
+.tooki__pricing-container_packages-three-div a{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+    color: bisque;
+    margin-top: 5rem;
+    width: 100%;
+    height: 60px;
+    background-color: white;
+}
+ .tooki__pricing-container_packages-two-div a{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    margin-top: 5rem;
+    width: 100%;
+    height: 60px;
+    background-color: bisque;
+}
+.tooki__pricing-container_packages-one-div a{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+    color: bisque;
+    width: 100%;
+    margin-top: 8rem;
+    height: 60px;
+    margin-bottom: 2.5rem;
+    background-color: white;
+}
+.tooki__pricing-container_packages-three-div a:hover, .tooki__pricing-container_packages-one-div a:hover{
+    background-color: lightgray;
+}
+.p{
+    margin-top: 2rem
+}
+.p a{
+    color: bisque;
+}
+

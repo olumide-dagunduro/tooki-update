@@ -39,6 +39,16 @@ const Steps = () => {
             <a href="">Learn more  <BsArrowRight  className="three" size='27' color= 'green' /> </a>
           </div>
         </div>
+        <div className='tooki__steps-container_stripe'>
+            <div className='tooki__steps-container_stripe-content'>
+                <h1>7%</h1>
+                <h1>/</h1>
+                <div className='tooki__steps-container_stripe-content-div'>
+                    <p>We ourselves have seen a quick 7 percent conversion rate increase just from adding a few logos on an opt-in page</p>
+                    <h5>ENTREPRENEUR.COM</h5>
+                </div>
+            </div>
+        </div>
       </div>
     </div>
   );

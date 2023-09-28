@@ -73,9 +73,34 @@
 .tooki__steps-container_cards-one a .one, .tooki__steps-container_cards-two a .two, .tooki__steps-container_cards-three a .three{
     margin-left: 1rem;
 }
+.tooki__steps-container_stripe{
+    width: 100%;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem
+}
+.tooki__steps-container_stripe-content{
+    display: flex;
+}
+.tooki__steps-container_stripe-content :nth-child(2){
+    margin-left: 1.5rem;
+}
+.tooki__steps-container_stripe-content-div {
+    margin-left: 1.5rem;
+}
+.tooki__steps-container_stripe-content-div{
+    color: gray;
+}
 @media screen and (max-width:750px) {
     .tooki__steps-container_cards-two{
         margin-top: 2.5rem;
+    }
+}
+@media screen and (max-width:670px) {
+    .tooki__steps-container_stripe-content h1{
+        display: none;
     }
 }
 @media screen and (max-width:450px) {
