@@ -1,0 +1,137 @@
+.tooki__banner2{
+    display: flex;
+    height: 440px ;
+
+}
+.tooki__banner2-container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+
+}
+.tooki__banner2-container_icons{
+}
+.tooki__banner2-container_details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.tooki__banner2-container_details p{
+    text-align: center;
+    line-height: 32px;
+}
+.tooki__banner2-container_icons .icon1{
+    position: absolute;
+    top: 100px;
+    left: 330px;
+}
+.tooki__banner2-container_icons .icon2{
+    position: absolute;
+    bottom: 55px;
+    right: 450px;
+}
+.tooki__banner2-container_icons .icon3{
+    position: absolute;
+    bottom: -15px;
+    left: 420px;
+}
+
+@media screen and (max-width:1250px) {
+    .tooki__banner2-container_icons .icon1{
+        top: 100px;
+        left: 250px;
+    }
+    .tooki__banner2-container_icons .icon2{
+        bottom: 55px;
+        right: 330px;
+    }
+    .tooki__banner2-container_icons .icon3{
+        bottom: -15px;
+        left: 350px;
+    }
+}
+@media screen and (max-width:1050px) {
+    .tooki__banner2-container_icons .icon1{
+        top: 100px;
+        left: 170px;
+    }
+    .tooki__banner2-container_icons .icon2{
+        bottom: 55px;
+        right: 220px;
+    }
+    .tooki__banner2-container_icons .icon3{
+        bottom: -15px;
+        left: 240px;
+    }
+}
+@media screen and (max-width:760px) {
+    .tooki__banner2-container_icons .icon1{
+        top: 100px;
+        left: 140px;
+    }
+    .tooki__banner2-container_icons .icon2{
+        bottom: 55px;
+        right: 150px;
+    }
+    .tooki__banner2-container_icons .icon3{
+        bottom: -15px;
+        left: 190px;
+    }
+}
+@media screen and (max-width:600px) {
+    .tooki__banner2-container_details p{
+        width: 400px;
+    }
+    .tooki__banner2-container_icons .icon1{
+        top: 70px;
+        left: 120px;
+    }
+    .tooki__banner2-container_icons .icon2{
+        bottom: 55px;
+        right: 120px;
+    }
+    .tooki__banner2-container_icons .icon3{
+        bottom: -15px;
+        left: 160px;
+    }
+    .tooki__banner2-container_icons .icon1 img{
+        height: 50px;
+        width: 50px;
+    }
+    .tooki__banner2-container_icons .icon2 img{
+        height: 18px;
+        width: 55px;
+    }
+    .tooki__banner2-container_icons .icon3 img{
+        height: 50px;
+        width: 50px;
+    }
+
+}
+@media screen and (max-width:500px) {
+    .tooki__banner2-container_icons .icon1{
+        top: 70px;
+        left: 60px;
+    }
+    .tooki__banner2-container_icons .icon2{
+        bottom: 55px;
+        right: 70px;
+    }
+    .tooki__banner2-container_icons .icon3{
+        bottom: -15px;
+        left: 110px;
+    }
+}
+@media screen and (max-width:450px) {
+    .tooki__banner2-container_details h2{
+        /* width: 300px; */
+        font-size: 18px;
+    }
+    .tooki__banner2-container_details p{
+        width: 300px;
+    }
+}

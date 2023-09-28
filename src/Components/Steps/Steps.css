@@ -1,0 +1,85 @@
+.tooki__steps{
+    display: flex;
+}
+.tooki__steps-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+/* .tooki__steps-container p{
+    margin-bottom: 3rem;
+} */
+.tooki__steps-container_detail{
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.tooki__steps-container_detail > *{
+    margin-top: 2.5rem;
+}
+.tooki__steps-container_cards-one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 370px;
+    height: 422px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    /* width: 100%; */
+}
+.tooki__steps-container_cards-two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 370px;
+    height: 422px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    /* width: 100%; */
+    margin-top: 1rem;
+}
+.tooki__steps-container_cards-three{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 370px;
+    height: 422px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    /* width: 100%; */
+    margin-top: 2.5rem;
+
+}
+.tooki__steps-container_cards-one p, .tooki__steps-container_cards-two p, .tooki__steps-container_cards-three p{
+    width: 300px;
+}
+.tooki__steps-container_cards-one h6, .tooki__steps-container_cards-two h6, .tooki__steps-container_cards-three h6{
+    font-size: 16px;
+    width: 250px;
+}
+.tooki__steps-container_cards-one a, .tooki__steps-container_cards-two a, .tooki__steps-container_cards-three a{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    color: green;
+    align-items: center;
+}
+.tooki__steps-container_cards-one a .one, .tooki__steps-container_cards-two a .two, .tooki__steps-container_cards-three a .three{
+    margin-left: 1rem;
+}
+@media screen and (max-width:750px) {
+    .tooki__steps-container_cards-two{
+        margin-top: 2.5rem;
+    }
+}
+@media screen and (max-width:450px) {
+    .tooki__steps-container p{
+        width: 300px;
+    }
+}

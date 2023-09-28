@@ -1,0 +1,69 @@
+.tooki__boostsales{
+    display: flex;
+}
+.tooki__boostsales-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+.tooki__boostsales-container_cards{
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.tooki__boostsales-container_cards > *{
+    margin-top: 2.5rem;
+}
+.tooki__boostsales-container_cards-one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 370px;
+    height: 422px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    /* width: 100%; */
+}
+.tooki__boostsales-container_cards-two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 370px;
+    height: 422px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    /* width: 100%; */
+}
+.tooki__boostsales-container_cards-three{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 370px;
+    height: 422px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    /* width: 100%; */
+}
+.tooki__boostsales-container_cards-one p, .tooki__boostsales-container_cards-two p, .tooki__boostsales-container_cards-three p{
+    width: 300px;
+}
+.tooki__boostsales-container_button{
+    padding: 20px;
+    margin-top: 2rem;
+    background-color: bisque;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 17px;
+}
+@media screen and (max-width:700px) {
+    .tooki__boostsales-container{
+        margin-top: 0;
+    }
+}

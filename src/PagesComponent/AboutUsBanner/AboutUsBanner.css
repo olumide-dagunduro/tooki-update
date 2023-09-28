@@ -1,0 +1,107 @@
+.tooki__aboutusbanner{
+    display: flex;
+}
+.tooki__aboutusbanner-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+.tooki__aboutusbanner-container h1{
+    text-align: center;
+    font-size: 45px;
+    color: black;
+}
+.tooki__aboutusbanner-container-details{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    /* background-color: moccasin; */
+    padding: 50px 0 150px 0;
+
+}
+.tooki__aboutusbanner-container-details_text{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.tooki__aboutusbanner-container-details_text p{
+    
+}
+.tooki__aboutusbanner-container-details_image{
+
+}
+/* .tooki__aboutusbanner-container-details_image img{
+    width: 500px;
+    height: 350px;
+    border-radius: 5px;
+} */
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.tooki__aboutusbanner-container-details2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.tooki__aboutusbanner-container-details2 p{
+    width: 500px;
+    padding: 60px;
+    background-color: ivory;
+}
+.tooki__aboutusbanner-container-details3{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0 100px 0;
+    margin-top: 100px;
+}
+.tooki__aboutusbanner-container-details3_image img{
+    border-radius: 5px;
+}
+.tooki__aboutusbanner-container-details3_text{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+@media screen and (max-width:1000px) {
+    .tooki__aboutusbanner-container-details{
+        flex-direction: column-reverse;
+    }   
+    .tooki__aboutusbanner-container-details_text{
+        max-width: 530px;
+        width: 100%;
+        align-items: center;
+    }
+    .tooki__aboutusbanner-container-details_text p{
+    }
+    .tooki__aboutusbanner-container-details3{
+        flex-direction: column;
+
+    }
+    .tooki__aboutusbanner-container-details3_text{
+        max-width: 530px;
+        width: 100%;
+        align-items: center;
+        margin-top: 1rem;
+    }
+    .tooki__aboutusbanner-container-details3_text p{
+    }
+}
+@media screen and (max-width:550px) {
+    .tooki__aboutusbanner-container{
+        /* padding: 0 20px; */
+    }
+    .tooki__aboutusbanner-container h1{
+        font-size: 28px;
+    }
+    .tooki__aboutusbanner-container-details{
+        padding-top: 10px;
+    }
+}

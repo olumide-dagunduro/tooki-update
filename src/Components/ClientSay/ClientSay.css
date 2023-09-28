@@ -1,0 +1,64 @@
+.tooki__clientsay{
+    display: flex;
+}
+.tooki__clientsay-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+.tooki__clientsay-container_stats{
+    display: flex;
+    width: 50%;
+    justify-content: space-around   ;
+}
+.stats1, .stats2, .stats3, .stats4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.stats1 p, .stats2 p, .stats3 p, .stats4 p{
+    margin-top: -1rem;
+}
+.tooki__clientsay-container_button{
+    margin-top: 2rem;
+    padding: 17px;
+    border: none;
+    background-color: bisque;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+}
+@media screen and (max-width:1200px) {
+    .tooki__clientsay-container_stats{
+        display: grid;
+        grid-template-columns: 300px 300px;
+    }
+}
+@media screen and (max-width:700px) {
+    .tooki__clientsay-container_stats{
+        display: grid;
+        grid-template-columns: 200px 200px;
+    }
+}
+@media screen and (max-width:500px) {
+    .tooki__clientsay-container_stats{
+        display: grid;
+        grid-template-columns: 150px 150px;
+    }
+}
+@media screen and (max-width:400px) {
+    .tooki__clientsay-container_stats{
+        display: grid;
+        grid-template-columns: 120px 120px;
+    }
+    .stats1 p, .stats2 p, .stats3 p, .stats4 p{
+        font-size: 13px;
+    }
+    .stats1 h2, .stats2 h2, .stats3 h2, .stats4 h2{
+        font-size: 18px;
+    }
+    
+}
