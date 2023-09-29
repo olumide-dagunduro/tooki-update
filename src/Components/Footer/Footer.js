@@ -23,9 +23,9 @@ const Footer = () => {
                 </ul>
             </div>
             <div className='tooki__footer-container-socials'>
-                <PiFacebookLogoLight />
-                <AiOutlineInstagram />
-                <PiTwitterLogoThin />
+                <PiFacebookLogoLight className='social' />
+                <AiOutlineInstagram className='social'/>
+                <PiTwitterLogoThin className='social'/>
             </div>
             <p className='tooki__footer-container-location'>
                 Happily based in Lagos Nigeria

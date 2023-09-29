@@ -9,6 +9,10 @@ import BoostSales from './Components/BoostSales/BoostSales';
 import ClientSay from './Components/ClientSay/ClientSay';
 import Steps from './Components/Steps/Steps';
 import Pricing from './Components/Pricing/Pricing';
+import MoneyBack from './Components/MoneyBack/MoneyBack';
+import Stripe from './Components/Stripe/Stripe';
+import Faq from './Components/Faq/Faq';
+import Newsletter from './Components/NewsLetter/Newsletter';
 
 function App() {
   return(
@@ -21,7 +25,11 @@ function App() {
       <ClientSay />
       <Steps />
       <Pricing />
-      {/* <Footer /> */}
+      <MoneyBack />
+      <Stripe />
+      <Faq />
+      <Newsletter />
+      <Footer />
     </div>
     
   )

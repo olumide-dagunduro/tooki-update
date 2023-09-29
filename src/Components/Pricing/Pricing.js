@@ -38,8 +38,8 @@ const Pricing = () => {
                         <img src={Icon2} alt='icon2' />
                         <div className='div2'>
                             <h1>Pro</h1>
-                            <h3>$300</h3>
-                            <h6>Value</h6>
+                            <h2>$300</h2>
+                            <h5>Value</h5>
                         </div>
                         <p>We write the article and we publish it</p>
                         <p><AiFillCheckCircle color='lightgreen' size={20} className='icon' />Guaranteed publishing to 100+ sites</p>

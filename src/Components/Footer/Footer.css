@@ -3,7 +3,9 @@
 }
 .tooki__footer-container{
     display: flex;
+    height: 380px;
     flex-direction: column;
+    justify-content: center;
     width: 100%;
     max-width: 1512px;
     margin: 0 auto;
@@ -51,4 +53,31 @@
 }
 .tooki__footer-container-tc p{
     margin-left: 1.5rem;
+}
+.social{
+    cursor: pointer;
+}
+@media screen and (max-width:750px) {
+    .tooki__footer-container-links ul{
+        display: grid;
+        grid-template-columns: 200px 200px;
+        max-width: 500px;
+        align-items: center;
+        justify-content: center;
+    }
+    .tooki__footer-container-links ul li {
+        text-align: center  ;
+    }
+}
+@media screen and (max-width:500px) {
+    .tooki__footer-container-links ul{
+        display: grid;
+        grid-template-columns: 150px 150px;
+        max-width: 350px;
+        align-items: center;
+        justify-content: center;
+    }
+    .tooki__footer-container-links ul li {
+        text-align: center  ;
+    }
 }

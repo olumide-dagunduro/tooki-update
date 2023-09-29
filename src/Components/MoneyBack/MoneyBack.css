@@ -1,0 +1,79 @@
+.tooki__moneyback{
+    display: flex;
+}
+.tooki__moneyback-container{
+    display: flex;
+    flex-direction: row;
+    height: 650px;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.tooki__moneyback-container_detail{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tooki__moneyback-container_detail p{
+    width: 90%;
+}
+.tooki__moneyback-container_detail h4{
+    width: 90%;
+    font-size: 20px;
+}
+@media screen and (max-width:1050px) {
+    .tooki__moneyback-container_image img{
+        width: 450px;
+        height: 350px;
+    }
+}
+@media screen and (max-width:850px) {
+    .tooki__moneyback-container{
+        flex-direction: column-reverse;
+        height: 850px;
+        justify-content: center;
+        align-items: center;
+        /* justify-content: space-around; */
+    }
+    .tooki__moneyback-container_image img{
+        width: 509px;
+        height: 381px;
+        margin-left: -2.5rem;
+    }
+    .tooki__moneyback-container_detail{
+        width: 80%;
+    }
+}
+@media screen and (max-width:670px){
+    .tooki__moneyback-container_image img{
+        width: 450px;
+        height: 320px;
+    }
+
+}
+@media screen and (max-width:500px){
+    .tooki__moneyback-container_image img{
+        width: 360px;
+        height: 240px;
+    }
+    .tooki_banner-container_item1-detail h1{
+        font-size: 30px;
+    }
+    .tooki__moneyback-container_detail p{
+        font-size: 18px;
+    }
+    .tooki__moneyback-container{
+        padding: 0;
+    }
+}
+@media screen and (max-width:300px){
+    .tooki_howitworks-container_video .video{
+        width: 200px;
+        height: 130px;
+    }
+}

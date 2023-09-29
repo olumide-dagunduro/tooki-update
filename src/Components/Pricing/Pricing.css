@@ -77,6 +77,9 @@
     flex-direction: column;
     align-items: flex-start;
 }
+.tooki__pricing-container_packages-two-div .div2{
+
+}
 .tooki__pricing-container_packages-three{
     width: 370px;
     height: 760px;
@@ -116,6 +119,18 @@
 .tooki__pricing-container_packages-two-div div{
     display: flex;
     align-items: center;
+}
+.tooki__pricing-container_packages-two-div .div2 h2 {
+    margin-left: 1rem;
+    color: lightgray;
+}
+.tooki__pricing-container_packages-two-div .div2 h5 {
+    margin-left: 7rem;
+    background-color: bisque;
+    color: black;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
 }
 .tooki__pricing-container_packages-three-div a{
     display: flex;
